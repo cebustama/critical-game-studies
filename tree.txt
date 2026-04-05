@@ -19,5 +19,12 @@
 |       +---progress.jsx
 |       \---progress-design-plan.md
 +---04-threads
+|   \---military-entertainment-complex
+|       +---military_propaganda_techniques_infographic.html
+|       +---military-entertainment-complex-synthesis.md
+|       \---propaganda-techniques-research.md
 +---05-outputs
-\---make-tree-unity.bat
++---.gitignore
++---git-push.bat
++---make-tree-unity.bat
+\---README.md

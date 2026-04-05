@@ -1,0 +1,184 @@
+
+<style>
+.ig { max-width: 600px; margin: 0 auto; padding: 1.5rem 0; }
+.ig-title { font: 500 20px var(--font-sans); color: var(--color-text-primary); margin-bottom: 4px; }
+.ig-sub { font: 400 13px var(--font-sans); color: var(--color-text-secondary); margin-bottom: 28px; line-height: 1.5; }
+.card { border: 1px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); margin-bottom: 16px; overflow: hidden; }
+.card-head { display: flex; align-items: center; gap: 12px; padding: 14px 16px 10px; }
+.num { min-width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font: 500 13px var(--font-sans); }
+.tech-name { font: 500 15px var(--font-sans); color: var(--color-text-primary); }
+.card-body { padding: 0 16px 14px; }
+.example { border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
+.ex-game { font: 500 13px var(--font-sans); margin-bottom: 4px; }
+.ex-detail { font: 400 12.5px/1.55 var(--font-sans); }
+.ex-label { display: inline-block; font: 500 10px var(--font-sans); letter-spacing: 0.04em; padding: 2px 7px; border-radius: 4px; margin-bottom: 6px; }
+.how { font: 400 12.5px/1.55 var(--font-sans); color: var(--color-text-secondary); padding: 0 2px; }
+
+.n1 .num { background: #FCEBEB; color: #791F1F; }
+.n2 .num { background: #FAECE7; color: #712B13; }
+.n3 .num { background: #FAEEDA; color: #633806; }
+.n4 .num { background: #EEEDFE; color: #3C3489; }
+.n5 .num { background: #E6F1FB; color: #0C447C; }
+.n6 .num { background: #E1F5EE; color: #085041; }
+.n7 .num { background: #F1EFE8; color: #444441; }
+
+.n1 .example { background: #FCEBEB; }
+.n1 .ex-game { color: #791F1F; }
+.n1 .ex-detail { color: #501313; }
+.n1 .ex-label { background: #F7C1C1; color: #791F1F; }
+
+.n2 .example { background: #FAECE7; }
+.n2 .ex-game { color: #712B13; }
+.n2 .ex-detail { color: #4A1B0C; }
+.n2 .ex-label { background: #F5C4B3; color: #712B13; }
+
+.n3 .example { background: #FAEEDA; }
+.n3 .ex-game { color: #633806; }
+.n3 .ex-detail { color: #412402; }
+.n3 .ex-label { background: #FAC775; color: #633806; }
+
+.n4 .example { background: #EEEDFE; }
+.n4 .ex-game { color: #3C3489; }
+.n4 .ex-detail { color: #26215C; }
+.n4 .ex-label { background: #CECBF6; color: #3C3489; }
+
+.n5 .example { background: #E6F1FB; }
+.n5 .ex-game { color: #0C447C; }
+.n5 .ex-detail { color: #042C53; }
+.n5 .ex-label { background: #B5D4F4; color: #0C447C; }
+
+.n6 .example { background: #E1F5EE; }
+.n6 .ex-game { color: #085041; }
+.n6 .ex-detail { color: #04342C; }
+.n6 .ex-label { background: #9FE1CB; color: #085041; }
+
+.n7 .example { background: #F1EFE8; }
+.n7 .ex-game { color: #444441; }
+.n7 .ex-detail { color: #2C2C2A; }
+.n7 .ex-label { background: #D3D1C7; color: #444441; }
+
+@media (prefers-color-scheme: dark) {
+  .n1 .num { background: #501313; color: #F7C1C1; }
+  .n1 .example { background: rgba(80,19,19,0.35); }
+  .n1 .ex-game { color: #F7C1C1; }
+  .n1 .ex-detail { color: #F09595; }
+  .n1 .ex-label { background: rgba(121,31,31,0.5); color: #F7C1C1; }
+
+  .n2 .num { background: #4A1B0C; color: #F5C4B3; }
+  .n2 .example { background: rgba(74,27,12,0.35); }
+  .n2 .ex-game { color: #F5C4B3; }
+  .n2 .ex-detail { color: #F0997B; }
+  .n2 .ex-label { background: rgba(113,43,19,0.5); color: #F5C4B3; }
+
+  .n3 .num { background: #412402; color: #FAC775; }
+  .n3 .example { background: rgba(65,36,2,0.35); }
+  .n3 .ex-game { color: #FAC775; }
+  .n3 .ex-detail { color: #EF9F27; }
+  .n3 .ex-label { background: rgba(99,56,6,0.5); color: #FAC775; }
+
+  .n4 .num { background: #26215C; color: #CECBF6; }
+  .n4 .example { background: rgba(38,33,92,0.35); }
+  .n4 .ex-game { color: #CECBF6; }
+  .n4 .ex-detail { color: #AFA9EC; }
+  .n4 .ex-label { background: rgba(60,52,137,0.5); color: #CECBF6; }
+
+  .n5 .num { background: #042C53; color: #B5D4F4; }
+  .n5 .example { background: rgba(4,44,83,0.35); }
+  .n5 .ex-game { color: #B5D4F4; }
+  .n5 .ex-detail { color: #85B7EB; }
+  .n5 .ex-label { background: rgba(12,68,124,0.5); color: #B5D4F4; }
+
+  .n6 .num { background: #04342C; color: #9FE1CB; }
+  .n6 .example { background: rgba(4,52,44,0.35); }
+  .n6 .ex-game { color: #9FE1CB; }
+  .n6 .ex-detail { color: #5DCAA5; }
+  .n6 .ex-label { background: rgba(8,80,65,0.5); color: #9FE1CB; }
+
+  .n7 .num { background: #2C2C2A; color: #D3D1C7; }
+  .n7 .example { background: rgba(44,44,42,0.35); }
+  .n7 .ex-game { color: #D3D1C7; }
+  .n7 .ex-detail { color: #B4B2A9; }
+  .n7 .ex-label { background: rgba(68,68,65,0.5); color: #D3D1C7; }
+}
+</style>
+<div class="ig">
+<div class="ig-title">Seven propaganda techniques in US military games</div>
+<div class="ig-sub">Each technique with a concrete, documented example. Organized from most blatant historical falsification to the subtlest structural operations.</div>
+
+<div class="card n1">
+<div class="card-head"><div class="num">1</div><div class="tech-name">Reassign US atrocities to enemy nations</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Historical revision</span>
+<div class="ex-game">Call of Duty: Modern Warfare (2019)</div>
+<div class="ex-detail">The game names a mission "Highway of Death" and attributes the bombing of fleeing civilians to Russia. In reality, the Highway of Death was a US-led coalition attack on retreating Iraqi forces during the 1991 Gulf War that killed 500–1,000 people. The game recreates the exact visual iconography — burnt vehicles, grey dust, cracked road — then reassigns the perpetrator. Russia banned sales of the game.</div>
+</div>
+<div class="how">How it works: Take a specific, documented US military action. Change the national flag on the perpetrator. Set it in a fictional country so the studio can claim it's not referencing the real event. The player experiences the atrocity as something enemies do.</div>
+</div></div>
+
+<div class="card n2">
+<div class="card-head"><div class="num">2</div><div class="tech-name">Manufacture fictional WMDs to justify real wars</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Retroactive justification</span>
+<div class="ex-game">Call of Duty: Modern Warfare trilogy (2007–2011)</div>
+<div class="ex-detail">The US invaded Iraq in 2003 claiming Saddam Hussein possessed WMDs. No such weapons existed. The Modern Warfare series solves this political problem: its fictional Middle East and Eastern Europe are full of chemical weapons, dirty bombs, and nuclear devices that actually work. The player hunts real WMDs, neutralizes genuine existential threats, and experiences a version of the War on Terror where the invasion's justification was true.</div>
+</div>
+<div class="how">How it works: Don't argue the real war was justified. Instead, build a fictional world where the justification exists. After hundreds of hours in that world, the logic of preemptive war feels self-evident — because in the game, it actually was necessary.</div>
+</div></div>
+
+<div class="card n3">
+<div class="card-head"><div class="num">3</div><div class="tech-name">Glorify controversial figures, erase their records</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Reputation laundering</span>
+<div class="ex-game">Call of Duty: Black Ops Cold War (2020)</div>
+<div class="ex-detail">Ronald Reagan appears as a CGI character who authorizes the player's missions with the line: "There is no higher duty, there is no higher honor." He is portrayed as a principled commander. Iran-Contra, the AIDS crisis, illegal wars in Central America — erased. The game's "good ending" requires loyal service to the CIA. The "bad ending" — siding against the CIA — results in nuclear apocalypse, literally equating opposition to American intelligence with armageddon.</div>
+</div>
+<div class="how">How it works: Render a real political figure in flattering CGI. Give them heroic dialogue. Omit the scandals. Embed them in a narrative where following their orders saves the world. The player's positive association is built through gameplay, not argument.</div>
+</div></div>
+
+<div class="card n4">
+<div class="card-head"><div class="num">4</div><div class="tech-name">Reframe illegal operations as dark but necessary heroism</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Moral reframing</span>
+<div class="ex-game">Call of Duty: Black Ops II (2012)</div>
+<div class="ex-detail">Oliver North — convicted (later reversed) for his role in illegally selling weapons to Iran and funding Nicaraguan rebels accused of human rights abuses — served as script consultant, voiced himself in-game, and starred in promotional ads. The game's 1980s storyline turns the Iran-Contra theater into an exciting spy thriller. CIA agents in-game boast "every mission we do is illegal" — framing lawbreaking as tough-but-necessary patriotism.</div>
+</div>
+<div class="how">How it works: Take a real scandal (Iran-Contra, CIA coups, MKUltra) and repackage it as the "secret history you don't know about." The illegality becomes a badge of honor — these brave operatives broke laws because they had to. The player performs the illegal operations as gameplay.</div>
+</div></div>
+
+<div class="card n5">
+<div class="card-head"><div class="num">5</div><div class="tech-name">Construct dehumanizing enemy stereotypes</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Dehumanization</span>
+<div class="ex-game">Command & Conquer: Generals (2003)</div>
+<div class="ex-detail">The Arab faction, the "Global Liberation Army," is equipped with car bombs, suicide bombers, and AK-47s — contrasted with the advanced technology of US and Chinese factions. University of Michigan research found that playing terrorism-themed games increased anti-Arab attitudes even when Arabs weren't explicitly shown. Developer Rami Ismail summarized the pattern: "Muslim blood is the cheapest on Earth right now. That's all you are doing in Call of Duty."</div>
+</div>
+<div class="how">How it works: Enemies in military games have no interiority — no families, no motivations, no capacity for surrender. They are procedurally generated targets. The effect isn't argued prejudice but practiced dehumanization: after hundreds of hours, "enemy" and "Arab/Russian/Latin American" become the same category in muscle memory.</div>
+</div></div>
+
+<div class="card n6">
+<div class="card-head"><div class="num">6</div><div class="tech-name">Normalize military logic through game mechanics</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Structural normalization</span>
+<div class="ex-game">America's Army (2002–2022)</div>
+<div class="ex-detail">Developed and published by the US Army at a cost of ~$50 million. Free to play. The training sequences replicate actual Army protocols. The player always plays as a US soldier — even the opposing team sees themselves as Americans, making it structurally impossible to play as the enemy. A 2008 MIT study found 30% of Americans aged 16–24 had a more positive impression of the Army because of the game. The Army's own FAQ called it their "most cost-effective" recruitment tool.</div>
+</div>
+<div class="how">How it works: The respawn mechanic removes death's finality. The killstreak reward teaches that violence compounds. The first-person view makes the gun the organizing principle of spatial awareness. The mission briefing structure constitutes the player as someone who receives orders — there is no "refuse" button. None of this is argued. It's practiced.</div>
+</div></div>
+
+<div class="card n7">
+<div class="card-head"><div class="num">7</div><div class="tech-name">Claim war games are "not political"</div></div>
+<div class="card-body">
+<div class="example">
+<span class="ex-label">Ideological camouflage</span>
+<div class="ex-game">Industry-wide pattern</div>
+<div class="ex-detail">Infinity Ward on Modern Warfare (features CIA ops, chemical warfare, the Highway of Death): "We're not making a political statement." Ubisoft on The Division 2 (civil war at the White House): "We're definitely not making any political statements." Six Days in Fallujah: "Not trying to make a political commentary." Black Ops II (features Oliver North): "We're not trying to make a political statement with our game." A Ubisoft executive stated openly that visible politics are "bad for business."</div>
+</div>
+<div class="how">How it works: This is the master technique. By insisting that games depicting war crimes, real political figures, and CIA black ops are "just entertainment," studios transform specific ideological assumptions into the invisible background of the medium. When American intervention is the default setting rather than a political statement, the propaganda has succeeded completely — because nobody recognizes it as propaganda.</div>
+</div></div>
+</div>

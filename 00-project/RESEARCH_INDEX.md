@@ -45,36 +45,63 @@
 - **Documents:** progress-design-plan.md, progress.jsx
 - **Key mechanic:** permanent death via persistent storage; fixed narrative sequence (player doesn't choose *what* to destroy, only *that* they destroy); exponential score counter that grows meaninglessly; drone audio loses warmth as world empties
 
+### 5. Military-Entertainment Complex & Propaganda
+- **Status:** COMPLETE (synthesis + deep research)
+- **Documents:** military-entertainment-complex-synthesis.md, propaganda-techniques-research.md
+- **Sources used:**
+  - Seiwald, "Down with the Commies" (2021) — Althusser's ISA applied to Cold War games
+  - Martin, "Aiming to be the Top Gun" (2023) — military recruitment through media
+  - Noriega v. Activision Blizzard — legal dimensions of historical figures in games
+  - Extensive web research: FOIA documents, investigative journalism (Jacobin, VICE, The Nation, Foreign Policy), academic studies (University of Michigan, Game Studies journal)
+- **Theoretical contribution:**
+  - Gramsci-Althusser reconciliation: complementary frameworks operating on different registers. Gramsci explains *why players consent* (hegemony, naturalization). Althusser explains *how the game constitutes them before consent is at issue* (ISA, interpellation through rules). Martin supplies institutional history both theories need.
+  - Four-mode propaganda spectrum: (1) direct state production (America's Army), (2) state-assisted commercial (CoD military consultants), (3) autonomous reproduction without institutional contact (genre conventions reproduce military ideology spontaneously), (4) structural militarism without military content (battle royale as depoliticized warfare)
+- **Propaganda techniques identified:**
+  1. Reassigning US atrocities to enemy nations (Highway of Death → Russia in Modern Warfare 2019)
+  2. Manufacturing fictional WMDs to retroactively justify real wars (Modern Warfare trilogy as "War on Terror if the justification was true")
+  3. Glorifying controversial figures and whitewashing records (Reagan in Black Ops Cold War, Oliver North consulting on Black Ops II)
+  4. Framing illegal operations as heroic necessity (Iran-Contra repackaged as thriller in Black Ops franchise)
+  5. Constructing dehumanizing enemy stereotypes (Arabs in C&C: Generals, Russians across dozens of franchises, Latin Americans in Ghost Recon: Wildlands)
+  6. Normalization through game mechanics (respawn removes death's finality, killstreak teaches violence compounds, first-person perspective organizes perception around the weapon, mission briefing constitutes player as order-follower — no "refuse" button)
+  7. The "apolitical" defense (industry-wide pattern of claiming war games are "not political" — functions as ideological camouflage by naturalizing military assumptions as the invisible background of entertainment)
+- **Institutional infrastructure documented:**
+  - Direct state production: America's Army ($50M, 10M+ users, 30% positive attitude shift among 16-24 year olds per MIT study)
+  - Pentagon-funded labs: Institute for Creative Technologies at USC ($500M+ cumulative), produced Full Spectrum Warrior (hidden Army training version on retail disc)
+  - Embedded consultants: Lt. Col. Hank Keirsey (CoD franchise 2004–2012), Oliver North (Black Ops II script consultant + in-game character), Capt. Dale Dye (Medal of Honor)
+  - Revolving door: Dave Anthony (CoD director) → Atlantic Council fellow; Peter Tamte (Six Days in Fallujah) ← military simulation contracts
+  - Esports recruitment: U.S. Army Esports team (2018), fake giveaways redirecting to recruitment forms, 300+ Twitch bans for mentioning war crimes, AOC amendment defeated 292-126
+  - Defense contractor integration: BAE Systems acquired Bohemia Interactive Simulations for $200M, Raytheon sponsors US Cyber Games
+- **Counter-examples profiled:** Spec Ops: The Line, This War of Mine, Papers Please, Metal Gear Solid, Unmanned, September 12
+- **Key academic sources added:** Roger Stahl (*Militainment, Inc.*, *Theaters of War* documentary), Corey Mead (*War Play*), Ed Halter (*From Sun Tzu to Xbox*), Matthew Thomas Payne (*Playing War*), Marijam Didžgalvytė (*Everything to Play For*), Tom Secker & Matthew Alford (*National Security Cinema*), Vít Šisler ("Digital Arabs")
+- **Gaps remaining:** non-US military propaganda in games (Russia, China, Israel), phenomenological dimension of military play (embodied trigger-pulling), multiplayer as social enforcement of military norms (partially theorized in synthesis but not empirically developed)
+
 ---
 
 ## Active / Planned Research Threads
 
-### 5. Military-Entertainment Complex & Propaganda
-- **Status:** SOURCES COLLECTED, NOT YET SYNTHESIZED
-- **Sources available:**
-  - Seiwald, "Down with the Commies" (2021) — Althusser's ISA applied to Cold War games
-  - Martin, "Aiming to be the Top Gun" (2023) — military recruitment through media
-  - Noriega v. Activision Blizzard — legal dimensions of historical figures in games
-- **Key questions:**
-  - How do games function as Althusser's ISA vs Gramsci's hegemony? Are these complementary or competing frameworks?
-  - How does the military influence games without direct production involvement? (Seiwald's insight: discursive assertions in society make direct influence unnecessary)
-  - How does America's Army differ structurally from Call of Duty as propaganda? (overt vs covert ISA)
-  - What is the relationship between Martin's analysis of recruitment-through-media and Seiwald's ISA framework?
-- **Planned output:** synthesis document connecting both sources to the existing materialist framework
-
 ### 6. Cold War Ideology in Games
-- **Status:** SOURCES COLLECTED, NOT YET SYNTHESIZED
+- **Status:** READY TO BEGIN (strong foundation from Thread 5)
 - **Sources available:** Seiwald (2021) — primary
+- **Foundation from Thread 5:**
+  - Gramsci-Althusser framework already reconciled
+  - Black Ops contradiction (presents and undermines Cold War ideology) identified but needs full development
+  - Command & Conquer: Red Alert nuclear reversal documented
+  - "Autonomous reproduction" concept ready to apply to post-Cold War persistence of Cold War enemy typologies
 - **Key questions:**
   - How do post-Cold War games reproduce Cold War ideology despite temporal distance?
   - What are the specific propaganda modes and how do they operate mechanically? (Seiwald identifies: land seizure, false games/intrigues, lacking morality, media/mind control)
-  - How does Call of Duty: Black Ops both present *and* undermine Cold War ideology? (Seiwald notes this dual function)
+  - How does Call of Duty: Black Ops both present *and* undermine Cold War ideology? (Thread 5 synthesis begins this but needs expansion)
   - How does Command & Conquer: Red Alert 2 reverse historical facts (assigning atomic bomb use to Soviets)?
   - How does the friend-foe discrimination operate through game mechanics, not just narrative?
 - **Planned output:** analysis document with specific mechanical case studies
 
 ### 7. Race, Ethnicity, and Minority Representation
-- **Status:** NOT STARTED
+- **Status:** NOT STARTED (but Thread 5 adds material on Arab/Muslim stereotyping)
+- **New material from Thread 5:**
+  - University of Michigan study: terrorism-themed games increase anti-Arab attitudes even without explicit Arab depiction
+  - Vít Šisler's "Digital Arabs" research on flattening of Muslim/Arab identities
+  - Rami Ismail's critique from developer perspective
+  - Command & Conquer: Generals GLA faction analysis
 - **Key questions:**
   - How have racial representations evolved across game history — not just aesthetically but mechanically?
   - How do game systems construct racial categories? (stat systems, faction design, enemy taxonomy)
@@ -84,12 +111,15 @@
 - **Planned output:** historical survey + mechanical analysis
 
 ### 8. Orientalism in Games
-- **Status:** NOT STARTED
+- **Status:** NOT STARTED (Thread 5 adds "Urzikstan" analysis)
+- **New material from Thread 5:**
+  - Modern Warfare's "Urzikstan" as "Ur-Country" — collapsing the entire Middle East into one undifferentiated conflict zone
+  - Farah character modeled on Kurdish fighters but with Afghan backstory and Syrian setting — the game cannot distinguish between these conflicts
 - **Key questions:**
   - How do games construct "the East" as other — through mechanics, not just aesthetics?
-  - How do knowledge systems in strategy games reproduce orientalist epistemology? (e.g., how Civ models "Eastern" civilizations through Western mechanical templates)
+  - How do knowledge systems in strategy games reproduce orientalist epistemology?
   - Case studies: Prince of Persia (1989–2010), Assassin's Creed (Levantine settings), Sekiro, Ghost of Tsushima
-  - How does Ghost of Tsushima's critical reception (praised in Japan, debated in Western academic circles) complicate simple orientalism critiques?
+  - How does Ghost of Tsushima's critical reception complicate simple orientalism critiques?
 - **Potential frameworks:** Said's *Orientalism*, Mukherjee, Seiwald's friend-foe discrimination
 - **Planned output:** analysis document
 
@@ -103,7 +133,13 @@
 - **Planned output:** analysis document
 
 ### 10. Alternative and Resistant Design Practices
-- **Status:** PARTIALLY COVERED in materialist analysis and Knotlands
+- **Status:** PARTIALLY COVERED in materialist analysis, Knotlands, and Thread 5
+- **New material from Thread 5:**
+  - Spec Ops: The Line as deliberate destruction of the military shooter from within (white phosphorus scene, loading screen accusations, commercial failure as structural limitation of critique)
+  - This War of Mine added to Polish national school curriculum — first game to receive such recognition
+  - Metal Gear Solid as longest-running anti-war critique in mainstream gaming
+  - Papers, Please as mechanical reproduction of Hannah Arendt's banality of evil
+  - Structural limitation identified: counter-examples are commercially marginal compared to franchises they critique ($30B CoD vs Spec Ops' commercial failure)
 - **Key questions:**
   - What constitutes a design *practice* (not just content) that resists hegemonic logic?
   - How do cooperatives (Motion Twin), indigenous studios (Upper One Games), and community-designed games differ structurally from conventional studios?
@@ -123,4 +159,5 @@
   4. Contradictions and Excess (where does the game undermine its own ideology?)
   5. Positionality of Analyst (who is performing this analysis, from where?)
 - **Status:** COMPLETE, applicable to any new research thread
-- **Note:** When starting a new thread, consider whether this framework needs adaptation for the specific topic or whether it can be applied directly.
+- **Applied in Thread 5:** Successfully used to analyze military shooters. Layer 2 (Systemic Grammar) proved particularly productive for identifying specific mechanics (respawn, killstreak, first-person perspective) as ideological apparatuses. Layer 4 (Contradictions) revealed Black Ops' accidental self-critique through brainwashing narrative.
+- **Note:** When starting a new thread, consider whether this framework needs adaptation for the specific topic or whether it can be applied directly. Thread 7 (Representation) may need expanded attention to narrative and aesthetic dimensions beyond mechanics.
