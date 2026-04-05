@@ -1,0 +1,23 @@
+﻿critical-game-studies
++---00-project
+|   +---CURRENT_STATE.md
+|   +---PROJECT_INSTRUCTIONS.md
+|   \---RESEARCH_INDEX.md
++---01-analysis
+|   +---materialist-analysis-deepened.md
+|   \---materialist-analysis-videogames.md
++---02-sources
+|   +---notes
+|   \---pdfs
+|       +---Aiming to be the Top Gun.pdf
+|       +---Noriega v. Activision_Blizzard_ The First Amendment Right to Use.pdf
+|       \---Seiwald_Down with the Commies (2021).pdf
++---03-design
+|   +---knotlands
+|   |   \---knotlands-design-document.md
+|   \---progress
+|       +---progress.jsx
+|       \---progress-design-plan.md
++---04-threads
++---05-outputs
+\---make-tree-unity.bat
